@@ -25,6 +25,11 @@ public class Day01 {
 		System.out.println("改变后的数组长度："+n);
 	}
 	
+	/**
+	 * 通过一个数组的两个指针来处理
+	 * @param nums
+	 * @return
+	 */
 	public static int  remove(int []nums) {
 		if (nums == null||nums.length==0) {
 			return 0;
